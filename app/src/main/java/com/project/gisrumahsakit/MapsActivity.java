@@ -1,11 +1,11 @@
-package com.project.gisrumahmakan;
-
-import androidx.fragment.app.FragmentActivity;
+package com.project.GISRumahSakit;
 
 import android.graphics.Bitmap;
 import android.graphics.Color;
 import android.graphics.drawable.BitmapDrawable;
 import android.os.Bundle;
+
+import androidx.fragment.app.FragmentActivity;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -60,7 +60,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
 
         LatLng rsbudiagung = new LatLng(-0.907123, 119.873928);
-        mMap.addMarker(new MarkerOptions().position(rsbudiagung).title("Rumah Sakit Woodward"));
+        mMap.addMarker(new MarkerOptions().position(rsbudiagung).title("Rumah Sakit Budi Agung"));
 
 
         LatLng rswirabuana = new LatLng(-0.895920, 119.887575);
@@ -79,11 +79,11 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
 
         LatLng rsundata = new LatLng(-0.857944, 119.884020);
-        mMap.addMarker(new MarkerOptions().position(rsundata).title("Rumah Sakit Umum Sis Aljufri"));
+        mMap.addMarker(new MarkerOptions().position(rsundata).title("Rumah Sakit UNDATA"));
 
 
         LatLng rsanutapura = new LatLng(0.900054, 119.849314);
-        mMap.addMarker(new MarkerOptions().position(rsanutapura).title("Rumah Sakit Umum Sis Aljufri"));
+        mMap.addMarker(new MarkerOptions().position(rsanutapura).title("Rumah Sakit Anutapura"));
 
 
         mMap.addPolyline(new PolylineOptions().add(
